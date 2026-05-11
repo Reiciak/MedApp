@@ -5,14 +5,27 @@
 Med App is a server-side application designed to integrate and unify data from various medical laboratories. It provides a centralized API for accessing, managing, and processing laboratory results and patient information. The system aims to streamline data exchange between different labs, making it easier for healthcare providers to retrieve and analyze medical data from multiple sources in a consistent format.
 
 ## Current Features
-- Read data from JSON files (laboratory results, patient information, etc.)
+✅ Read data from JSON files (laboratory results, patient information, etc.)
 
 ## Planned Features
-- Support file formats:
+🔄 Support file formats:
   - CSV
   - TXT
   - XML
-- Enhanced data validation and error handling
+🔄 Enhanced data validation and error handling
+
+## JSON Schema
+
+```json
+{
+  "patient_id": "string (unique identifier)",
+  "patient_name": "string",
+  "patient_surname": "string",
+  "test_name": "string",
+  "result": "double",
+  "scale": "string"
+}
+```
 
 ## Requirements
 - **C# version:** 10.0 or higher
